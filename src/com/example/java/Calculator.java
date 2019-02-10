@@ -9,12 +9,12 @@ public class Calculator {
     public static void main(String[] args) {
         String string1 = getInput("Enter a numeric value: ");
         String string2 = getInput("Enter a numeric value: ");
-        String op1 = getInput("Choose an operation (+ - * /):");
+        String op4 = getInput("Choose an operation (+ - * /):");
 
         double result;
 
         try {
-            switch (op1) {
+            switch (op4) {
                 case "+":
                     result = addValues(string1, string2);
                     break;
